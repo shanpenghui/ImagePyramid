@@ -13,7 +13,7 @@ using namespace cv;
 
 int main()
 {
-  Mat srcImage = imread("/home/sph/CLionProjects/image_pyramid/luna.jpg");
+  Mat srcImage = imread("../luna.jpg");
 
   //判断图像是否加载成功
   if(srcImage.empty())
